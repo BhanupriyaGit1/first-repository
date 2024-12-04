@@ -30,7 +30,7 @@ class MainActivity2 : AppCompatActivity() {
             // to check if the user fields are empty or not.
             if (TextUtils.isEmpty(usernameEdittext.text.toString()) || TextUtils.isEmpty(passwordEdittext.text.toString())) {
                 // this method will call when email and password fields are empty.
-                Toast.makeText(this@MainActivity2, "hi bhanu,Please Enter Email and Password", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@MainActivity2, "hi bhanu this is 3rd change,Please Enter Email and Password", Toast.LENGTH_SHORT).show()
             } else {
             //   Toast.makeText(this@MainActivity2),  enteredUsername+" , "+enteredPassword,Toast.LENGTH_SHORT).show()
                 // starting new activity.
